@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.adempiere.report.jasper.feature.feature.group' version='8.1.0.202101090636' singleton='false'>
+    <update id='org.adempiere.report.jasper.feature.feature.group' range='[0.0.0,8.1.0.202101090636)' severity='0'/>
+    <properties size='8'>
+      <property name='org.eclipse.equinox.p2.name' value='JasperReport-feature'/>
+      <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='iDempiere Community'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.report.jasper.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.report.jasper.feature.feature.group' version='8.1.0.202101090636'/>
+    </provides>
+    <requires size='64'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.report.jasper' range='[8.1.0.202101090636,8.1.0.202101090636]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.report.jasper.library' range='[8.1.0.202101090636,8.1.0.202101090636]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.jaspersoft.studio.bundles.itext' range='[2.1.7.js8_b01,2.1.7.js8_b01]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.antlr.runtime' range='[4.7.2.v20200218-0804,4.7.2.v20200218-0804]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.jaspersoft.studio.bundles.barbecue' range='[1.5.0.beta1_b02,1.5.0.beta1_b02]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.krysalis.barcode4j' range='[2.1.0,2.1.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='bctsp' range='[1.46.0,1.46.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='bcmail' range='[1.66.0,1.66.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.servicemix.bundles.jaxen' range='[1.1.6.1,1.1.6.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jfree.jcommon' range='[1.0.23,1.0.23]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.servicemix.bundles.rhino' range='[1.7.11.1,1.7.11.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.jfree.chart' range='[1.0.19,1.0.19]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='net.sf.jasperreports.engine' range='[6.15.0,6.15.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.dom4j' range='[2.1.1.v20190321-1528,2.1.1.v20190321-1528]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.smil' range='[1.0.0.v200806040011,1.0.0.v200806040011]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.svg' range='[1.1.0.v201011041433,1.1.0.v201011041433]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.css.sac' range='[1.3.1.v200903091627,1.3.1.v200903091627]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.logging' range='[1.2.0.v20180409-1502,1.2.0.v20180409-1502]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.digester' range='[2.1.0,2.1.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.google.zxing.core' range='[3.4.0,3.4.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.poi.poi' range='[4.1.2,4.1.2]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.poi.poi-ooxml' range='[4.1.2,4.1.2]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.poi.poi-ooxml-schemas' range='[4.1.2,4.1.2]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics' range='[2.4.0.v20200622-2037,2.4.0.v20200622-2037]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.core.jackson-annotations' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.core.jackson-core' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.core.jackson-databind' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.dataformat.jackson-dataformat-xml' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.datatype.jackson-datatype-guava' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.datatype.jackson-datatype-joda' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.jaxrs.jackson-jaxrs-base' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.jaxrs.jackson-jaxrs-xml-provider' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.module.jackson-module-jaxb-annotations' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.module.jackson-module-jsonSchema' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.woodstox.woodstox-core' range='[6.0.1,6.0.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='javax.validation.api' range='[1.1.0.Final,1.1.0.Final]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='jakarta.ws.rs-api' range='[2.1.6,2.1.6]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.google.guava' range='[27.1.0.v20190517-1946,27.1.0.v20190517-1946]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.module.jackson-module-jsonSchema.source' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.fasterxml.jackson.datatype.jackson-datatype-json-org' range='[2.10.1,2.10.1]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='json' range='[20180813.0.0,20180813.0.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='stax2-api' range='[4.2.0,4.2.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-anim' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-bridge' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-codec' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-constants' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-css' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-dom' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-svg-dom' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-ext' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-awt-util' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-extension' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-gvt' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-i18n' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-parser' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-script' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-svggen' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-util' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xmlgraphics.batik-xml' range='[1.11.0,1.11.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.lucene.core' range='[8.4.1.v20200122-1459,8.4.1.v20200122-1459]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.lucene.analyzers-common' range='[8.4.1.v20200122-1459,8.4.1.v20200122-1459]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.github.relaxng.Datatype' range='[2011.1.0,2011.1.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.report.jasper.feature.feature.jar' range='[8.1.0.202101090636,8.1.0.202101090636]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+  <unit id='org.adempiere.report.jasper.feature.feature.jar' version='8.1.0.202101090636'>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='JasperReport-feature'/>
+      <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='iDempiere Community'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.report.jasper.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.adempiere.report.jasper.feature.feature.jar' version='8.1.0.202101090636'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='org.adempiere.report.jasper.feature' version='8.1.0.202101090636'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='org.adempiere.report.jasper.feature' version='8.1.0.202101090636'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+</units>

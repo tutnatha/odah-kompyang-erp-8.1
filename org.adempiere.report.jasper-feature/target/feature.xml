@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.adempiere.report.jasper.feature"
+      label="JasperReport-feature"
+      version="8.1.0.202101090636"
+      provider-name="iDempiere Community">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.adempiere.report.jasper"
+         download-size="31"
+         install-size="59"
+         version="8.1.0.202101090636"/>
+
+   <plugin
+         id="org.adempiere.report.jasper.library"
+         download-size="3925"
+         install-size="4142"
+         version="8.1.0.202101090636"
+         fragment="true"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.itext"
+         download-size="1040"
+         install-size="1106"
+         version="2.1.7.js8_b01"/>
+
+   <plugin
+         id="org.antlr.runtime"
+         download-size="354"
+         install-size="704"
+         version="4.7.2.v20200218-0804"
+         unpack="false"/>
+
+   <plugin
+         id="com.jaspersoft.studio.bundles.barbecue"
+         download-size="76"
+         install-size="89"
+         version="1.5.0.beta1_b02"
+         unpack="false"/>
+
+   <plugin
+         id="org.krysalis.barcode4j"
+         download-size="268"
+         install-size="490"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="bctsp"
+         download-size="38"
+         install-size="85"
+         version="1.46.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcmail"
+         download-size="108"
+         install-size="229"
+         version="1.66.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.jaxen"
+         download-size="233"
+         install-size="409"
+         version="1.1.6.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.jfree.jcommon"
+         download-size="326"
+         install-size="593"
+         version="1.0.23"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.rhino"
+         download-size="2190"
+         install-size="6330"
+         version="1.7.11.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.jfree.chart"
+         download-size="1540"
+         install-size="3134"
+         version="1.0.19"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.jasperreports.engine"
+         download-size="5474"
+         install-size="12599"
+         version="6.15.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.dom4j"
+         download-size="341"
+         install-size="739"
+         version="2.1.1.v20190321-1528"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.dom.smil"
+         download-size="15"
+         install-size="30"
+         version="1.0.0.v200806040011"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.dom.svg"
+         download-size="95"
+         install-size="134"
+         version="1.1.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.css.sac"
+         download-size="35"
+         install-size="61"
+         version="1.3.1.v200903091627"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="71"
+         install-size="145"
+         version="1.2.0.v20180409-1502"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.digester"
+         download-size="192"
+         install-size="382"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.zxing.core"
+         download-size="527"
+         install-size="977"
+         version="3.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi.poi"
+         download-size="2877"
+         install-size="6275"
+         version="4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi.poi-ooxml"
+         download-size="1861"
+         install-size="4792"
+         version="4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi.poi-ooxml-schemas"
+         download-size="7847"
+         install-size="22238"
+         version="4.1.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics"
+         download-size="703"
+         install-size="1400"
+         version="2.4.0.v20200622-2037"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-annotations"
+         download-size="66"
+         install-size="115"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-core"
+         download-size="340"
+         install-size="706"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-databind"
+         download-size="1370"
+         install-size="3599"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"
+         download-size="105"
+         install-size="239"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.datatype.jackson-datatype-guava"
+         download-size="81"
+         install-size="226"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.datatype.jackson-datatype-joda"
+         download-size="70"
+         install-size="150"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-base"
+         download-size="32"
+         install-size="68"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider"
+         download-size="15"
+         install-size="25"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.jaxrs.jackson-jaxrs-xml-provider"
+         download-size="13"
+         install-size="23"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.module.jackson-module-jaxb-annotations"
+         download-size="34"
+         install-size="73"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.module.jackson-module-jsonSchema"
+         download-size="77"
+         install-size="166"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.woodstox.woodstox-core"
+         download-size="1560"
+         install-size="3144"
+         version="6.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="javax.validation.api"
+         download-size="62"
+         install-size="93"
+         version="1.1.0.Final"
+         unpack="false"/>
+
+   <plugin
+         id="jakarta.ws.rs-api"
+         download-size="137"
+         install-size="300"
+         version="2.1.6"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="2841"
+         install-size="6376"
+         version="27.1.0.v20190517-1946"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.module.jackson-module-jsonSchema.source"
+         download-size="56"
+         install-size="151"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.datatype.jackson-datatype-json-org"
+         download-size="16"
+         install-size="29"
+         version="2.10.1"
+         unpack="false"/>
+
+   <plugin
+         id="json"
+         download-size="63"
+         install-size="120"
+         version="20180813.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="stax2-api"
+         download-size="191"
+         install-size="385"
+         version="4.2.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-anim"
+         download-size="475"
+         install-size="914"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-bridge"
+         download-size="687"
+         install-size="1377"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-codec"
+         download-size="110"
+         install-size="207"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-constants"
+         download-size="8"
+         install-size="16"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-css"
+         download-size="322"
+         install-size="627"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-dom"
+         download-size="181"
+         install-size="352"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-svg-dom"
+         download-size="228"
+         install-size="1097"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-ext"
+         download-size="10"
+         install-size="16"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-awt-util"
+         download-size="417"
+         install-size="785"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-extension"
+         download-size="71"
+         install-size="132"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-gvt"
+         download-size="189"
+         install-size="360"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-i18n"
+         download-size="11"
+         install-size="21"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-parser"
+         download-size="76"
+         install-size="144"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-script"
+         download-size="26"
+         install-size="52"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-svggen"
+         download-size="222"
+         install-size="409"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-util"
+         download-size="126"
+         install-size="242"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xmlgraphics.batik-xml"
+         download-size="33"
+         install-size="108"
+         version="1.11.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.core"
+         download-size="3406"
+         install-size="6906"
+         version="8.4.1.v20200122-1459"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.analyzers-common"
+         download-size="1715"
+         install-size="4358"
+         version="8.4.1.v20200122-1459"
+         unpack="false"/>
+
+   <plugin
+         id="com.github.relaxng.Datatype"
+         download-size="15"
+         install-size="31"
+         version="2011.1.0"
+         unpack="false"/>
+
+</feature>
