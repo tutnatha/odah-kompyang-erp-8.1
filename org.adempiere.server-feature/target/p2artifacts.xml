@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='9'>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root.cocoa.macosx.x86' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root.cocoa.macosx.x86'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root.gtk.linux.x86' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root.gtk.linux.x86'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root.gtk.linux.x86_64' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root.gtk.linux.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root.win32.win32.x86' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root.win32.win32.x86'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root.cocoa.macosx.x86_64' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root.cocoa.macosx.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root.win32.win32.x86_64' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root.win32.win32.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='org.adempiere.server.feature_root.gtk.solaris.x86' version='8.1.0.202101090636'>
+    <properties size='5'>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='root.gtk.solaris.x86'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.adempiere.server.feature' version='8.1.0.202101090636'>
+    <properties size='6'>
+      <property name='artifact.size' value='2002'/>
+      <property name='download.size' value='2002'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.adempiere.server.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

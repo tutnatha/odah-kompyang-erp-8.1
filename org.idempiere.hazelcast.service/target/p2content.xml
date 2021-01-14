@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.idempiere.hazelcast.service' version='8.1.0.202101090636' singleton='false' generation='2'>
+    <update id='org.idempiere.hazelcast.service' range='[0.0.0,8.1.0.202101090636)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='iDempiere Hazelcast Service'/>
+      <property name='org.eclipse.equinox.p2.provider' value='iDempiere Community'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.idempiere.hazelcast.service'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.idempiere.hazelcast.service' version='8.1.0.202101090636'/>
+      <provided namespace='osgi.bundle' name='org.idempiere.hazelcast.service' version='8.1.0.202101090636'/>
+      <provided namespace='osgi.identity' name='org.idempiere.hazelcast.service' version='8.1.0.202101090636'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='22'>
+      <required namespace='osgi.bundle' name='org.eclipse.osgi' range='0.0.0'/>
+      <required namespace='java.package' name='javax.crypto' range='0.0.0'/>
+      <required namespace='java.package' name='javax.crypto.spec' range='0.0.0'/>
+      <required namespace='java.package' name='javax.management' range='0.0.0'/>
+      <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+      <required namespace='java.package' name='javax.security.auth' range='0.0.0'/>
+      <required namespace='java.package' name='javax.security.auth.login' range='0.0.0'/>
+      <required namespace='java.package' name='javax.xml.namespace' range='0.0.0'/>
+      <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+      <required namespace='java.package' name='javax.xml.transform' range='0.0.0'/>
+      <required namespace='java.package' name='javax.xml.transform.dom' range='0.0.0'/>
+      <required namespace='java.package' name='javax.xml.transform.stream' range='0.0.0'/>
+      <required namespace='java.package' name='javax.xml.xpath' range='0.0.0'/>
+      <required namespace='java.package' name='org.adempiere.base' range='0.0.0'/>
+      <required namespace='java.package' name='org.compiere' range='0.0.0'/>
+      <required namespace='java.package' name='org.compiere.model' range='0.0.0'/>
+      <required namespace='java.package' name='org.compiere.util' range='0.0.0'/>
+      <required namespace='java.package' name='org.idempiere.distributed' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.framework' range='1.3.0'/>
+      <required namespace='java.package' name='org.slf4j' range='1.6.1'/>
+      <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version&gt;=11))'>
+        <description>
+          org.idempiere.hazelcast.service
+        </description>
+      </requiredProperties>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.idempiere.hazelcast.service' version='8.1.0.202101090636'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.idempiere.hazelcast.service&#xA;Bundle-Version: 8.1.0.202101090636&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.idempiere.hazelcast.service.source' version='8.1.0.202101090636' singleton='false'>
+    <update id='org.idempiere.hazelcast.service.source' range='[0.0.0,8.1.0.202101090636)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='iDempiere Community'/>
+      <property name='df_LT.bundleName' value='iDempiere Hazelcast Service Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.idempiere.hazelcast.service'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.idempiere.hazelcast.service.source' version='8.1.0.202101090636'/>
+      <provided namespace='osgi.bundle' name='org.idempiere.hazelcast.service.source' version='8.1.0.202101090636'/>
+      <provided namespace='osgi.identity' name='org.idempiere.hazelcast.service.source' version='8.1.0.202101090636'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.idempiere.hazelcast.service.source' version='8.1.0.202101090636'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.idempiere.hazelcast.service.source&#xA;Bundle-Version: 8.1.0.202101090636&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

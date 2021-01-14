@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='org.eclipse.update.feature' id='org.idempiere.eclipse.platform.feature' version='8.1.0.202101090636'>
+    <properties size='6'>
+      <property name='artifact.size' value='2174'/>
+      <property name='download.size' value='2174'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.idempiere.eclipse.platform.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

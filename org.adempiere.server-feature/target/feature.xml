@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.adempiere.server.feature"
+      label="iDempiere Server-feature"
+      version="8.1.0.202101090636"
+      provider-name="iDempiere Community">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.adempiere.replication.server.feature"
+         version="8.1.0.202101090636"
+         optional="true"/>
+
+   <includes
+         id="org.adempiere.ui.zk.feature"
+         version="8.1.0.202101090636"/>
+
+   <includes
+         id="org.idempiere.felix.webconsole.feature"
+         version="8.1.0.202101090636"/>
+
+   <includes
+         id="org.adempiere.report.jasper.feature"
+         version="8.1.0.202101090636"/>
+
+   <includes
+         id="org.adempiere.pipo.feature"
+         version="8.1.0.202101090636"/>
+
+   <includes
+         id="org.idempiere.hazelcast.service.feature"
+         version="8.1.0.202101090636"/>
+
+   <includes
+         id="org.adempiere.base.feature"
+         version="8.1.0.202101090636"/>
+
+   <includes
+         id="org.idempiere.zk.feature"
+         version="8.1.0.202101090636"/>
+
+   <includes
+         id="org.idempiere.webservices.feature"
+         version="8.1.0.202101090636"/>
+
+   <plugin
+         id="org.apache.taglibs.taglibs-standard-spec"
+         download-size="39"
+         install-size="73"
+         version="1.2.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.taglibs.standard-impl"
+         download-size="201"
+         install-size="469"
+         version="1.2.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.taglibs.standard-jstlel"
+         download-size="159"
+         install-size="338"
+         version="1.2.5"
+         unpack="false"/>
+
+   <plugin
+         id="javax.websocket-api"
+         download-size="35"
+         install-size="58"
+         version="1.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.adempiere.server"
+         download-size="626"
+         install-size="871"
+         version="8.1.0.202101090636"
+         unpack="false"/>
+
+   <plugin
+         id="org.adempiere.install"
+         download-size="153"
+         install-size="289"
+         version="8.1.0.202101090636"/>
+
+   <plugin
+         id="org.adempiere.eclipse.equinox.http.servlet"
+         download-size="51"
+         install-size="103"
+         version="8.1.0.202101090636"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.servlet"
+         download-size="229"
+         install-size="523"
+         version="1.6.600.v20200707-1543"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.servletbridge"
+         download-size="9"
+         install-size="12"
+         version="1.1.200.v20200422-1833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.servletbridge"
+         download-size="48"
+         install-size="89"
+         version="1.6.0.v20200511-1902"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.registry"
+         download-size="46"
+         install-size="93"
+         version="1.2.0.v20200614-1851"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.cm"
+         download-size="78"
+         install-size="163"
+         version="1.4.400.v20200422-1833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.metatype"
+         download-size="95"
+         install-size="194"
+         version="1.5.300.v20200422-1833"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm"
+         download-size="118"
+         install-size="238"
+         version="9.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.spifly.dynamic.bundle"
+         download-size="148"
+         install-size="321"
+         version="1.3.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.aries.util"
+         download-size="112"
+         install-size="214"
+         version="1.1.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.commons"
+         download-size="69"
+         install-size="145"
+         version="9.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree"
+         download-size="51"
+         install-size="102"
+         version="9.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.mortbay.jasper.apache-jsp"
+         download-size="1017"
+         install-size="2191"
+         version="8.5.54"
+         unpack="false"/>
+
+   <plugin
+         id="org.mortbay.jasper.apache-el"
+         download-size="247"
+         install-size="483"
+         version="8.5.54"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.apache-jsp"
+         download-size="20"
+         install-size="46"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="json"
+         download-size="63"
+         install-size="120"
+         version="20180813.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.annotations"
+         download-size="84"
+         install-size="187"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.client"
+         download-size="313"
+         install-size="684"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.deploy"
+         download-size="61"
+         install-size="130"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.http"
+         download-size="209"
+         install-size="417"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.io"
+         download-size="160"
+         install-size="331"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.jaas"
+         download-size="45"
+         install-size="100"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.jmx"
+         download-size="41"
+         install-size="93"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.jndi"
+         download-size="45"
+         install-size="99"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.osgi.boot"
+         download-size="118"
+         install-size="251"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.osgi.boot.jsp"
+         download-size="21"
+         install-size="54"
+         version="9.4.33.v20201020"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.osgi.httpservice"
+         download-size="15"
+         install-size="35"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.plus"
+         download-size="64"
+         install-size="140"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.security"
+         download-size="115"
+         install-size="243"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.server"
+         download-size="689"
+         install-size="1464"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.servlet"
+         download-size="132"
+         install-size="289"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.servlets"
+         download-size="104"
+         install-size="214"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util"
+         download-size="552"
+         install-size="1080"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util.ajax"
+         download-size="63"
+         install-size="131"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.webapp"
+         download-size="137"
+         install-size="308"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.api"
+         download-size="50"
+         install-size="93"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.client"
+         download-size="44"
+         install-size="105"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.common"
+         download-size="208"
+         install-size="430"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.javax.websocket.server"
+         download-size="45"
+         install-size="106"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.javax.websocket"
+         download-size="164"
+         install-size="341"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.server"
+         download-size="43"
+         install-size="100"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.websocket.servlet"
+         download-size="29"
+         install-size="71"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.xml"
+         download-size="66"
+         install-size="158"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.api"
+         download-size="40"
+         install-size="84"
+         version="1.7.25"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.jcl"
+         download-size="6"
+         install-size="11"
+         version="1.7.25"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core"
+         download-size="6997"
+         install-size="16365"
+         version="3.23.0.v20200828-0941"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.resources"
+         download-size="875"
+         install-size="1909"
+         version="3.13.800.v20200706-2152"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.expressions"
+         download-size="90"
+         install-size="178"
+         version="3.7.0.v20200720-1126"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem"
+         download-size="65"
+         install-size="122"
+         version="1.7.700.v20200110-1734"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.text"
+         download-size="287"
+         install-size="581"
+         version="3.10.300.v20200807-0831"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.commands"
+         download-size="112"
+         install-size="213"
+         version="3.9.700.v20191217-1850"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.continuation"
+         download-size="24"
+         install-size="53"
+         version="9.4.33.v20201020"
+         unpack="false"/>
+
+   <plugin
+         id="jakarta.persistence-api"
+         download-size="160"
+         install-size="558"
+         version="2.2.3"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gson"
+         download-size="253"
+         install-size="507"
+         version="2.8.2.v20180104-1110"
+         unpack="false"/>
+
+   <plugin
+         id="org.aopalliance"
+         download-size="13"
+         install-size="16"
+         version="1.0.0.v201105210816"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.util"
+         download-size="82"
+         install-size="183"
+         version="9.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree.analysis"
+         download-size="32"
+         install-size="74"
+         version="9.0.0"
+         unpack="false"/>
+
+</feature>

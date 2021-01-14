@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.idempiere.eclipse.platform.feature.feature.group' version='8.1.0.202101090636' singleton='false'>
+    <update id='org.idempiere.eclipse.platform.feature.feature.group' range='[0.0.0,8.1.0.202101090636)' severity='0'/>
+    <properties size='8'>
+      <property name='org.eclipse.equinox.p2.name' value='Eclipse Platform for iDempiere'/>
+      <property name='org.eclipse.equinox.p2.description' value='Eclipse runtime for iDempiere'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='www.idempiere.org'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.idempiere.eclipse.platform.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.idempiere.eclipse.platform.feature.feature.group' version='8.1.0.202101090636'/>
+    </provides>
+    <requires size='60'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.codec' range='[1.13.0.v20200108-0001,1.13.0.v20200108-0001]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.logging' range='[1.2.0.v20180409-1502,1.2.0.v20180409-1502]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.gogo.command' range='[1.0.2.v20170914-1324,1.0.2.v20170914-1324]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.gogo.runtime' range='[1.1.0.v20180713-1646,1.1.0.v20180713-1646]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.gogo.shell' range='[1.1.0.v20180713-1646,1.1.0.v20180713-1646]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.felix.scr' range='[2.1.16.v20200110-1820,2.1.16.v20200110-1820]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.httpcomponents.httpclient' range='[4.5.10.v20200114-1512,4.5.10.v20200114-1512]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.httpcomponents.httpcore' range='[4.4.12.v20200108-1212,4.4.12.v20200108-1212]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.jobs' range='[3.10.800.v20200421-0950,3.10.800.v20200421-0950]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.app' range='[1.5.0.v20200717-0620,1.5.0.v20200717-0620]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.common' range='[3.13.0.v20200828-1034,3.13.0.v20200828-1034]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.concurrent' range='[1.1.500.v20200106-1437,1.1.500.v20200106-1437]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.console' range='[1.4.200.v20200828-1034,1.4.200.v20200828-1034]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.ds' range='[1.6.200.v20200422-1833,1.6.200.v20200422-1833]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.frameworkadmin' range='[2.1.400.v20191002-0702,2.1.400.v20191002-0702]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.frameworkadmin.equinox' range='[1.1.400.v20200319-1546,1.1.400.v20200319-1546]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher' range='[1.5.800.v20200727-1323,1.5.800.v20200727-1323]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.preferences' range='[3.8.0.v20200422-1833,3.8.0.v20200422-1833]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.registry' range='[3.9.0.v20200625-1425,3.9.0.v20200625-1425]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.security' range='[1.3.500.v20200114-1637,1.3.500.v20200114-1637]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.simpleconfigurator' range='[1.3.600.v20200721-1308,1.3.600.v20200721-1308]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.simpleconfigurator.manipulator' range='[2.1.500.v20200211-1505,2.1.500.v20200211-1505]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi.services' range='[3.9.0.v20200511-1725,3.9.0.v20200511-1725]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi.util' range='[3.5.300.v20190708-1141,3.5.300.v20190708-1141]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.sat4j.core' range='[2.3.5.v201308161310,2.3.5.v201308161310]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.sat4j.pb' range='[2.3.5.v201404071733,2.3.5.v201404071733]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.tukaani.xz' range='[1.8.0.v20180207-1613,1.8.0.v20180207-1613]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi' range='[3.16.0.v20200828-0759,3.16.0.v20200828-0759]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.common' range='[3.13.0.v20200828-1034,3.13.0.v20200828-1034]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='[3.19.0.v20200724-1004,3.19.0.v20200724-1004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='[3.19.0.v20200724-1004,3.19.0.v20200724-1004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi.compatibility.state' range='[1.2.100.v20200811-1344,1.2.100.v20200811-1344]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ant.core' range='[3.5.800.v20200608-1251,3.5.800.v20200608-1251]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.contenttype' range='[3.7.800.v20200724-0804,3.7.800.v20200724-0804]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.variables' range='[3.4.800.v20200120-1101,3.4.800.v20200120-1101]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.event' range='[1.5.500.v20200616-0800,1.5.500.v20200616-0800]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.net' range='[1.3.1000.v20200715-0827,1.3.1000.v20200715-0827]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.director.app' range='[1.1.600.v20200511-1530,1.1.600.v20200511-1530]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.transport.ecf' range='[1.2.400.v20200123-2221,1.2.400.v20200123-2221]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf' range='[3.9.100.v20200611-2221,3.9.100.v20200611-2221]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.filetransfer' range='[5.1.100.v20200611-2221,5.1.100.v20200611-2221]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.identity' range='[3.9.400.v20200611-2221,3.9.400.v20200611-2221]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.filetransfer' range='[3.2.600.v20200611-2221,3.2.600.v20200611-2221]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.filetransfer.ssl' range='[1.0.200.v20200611-1836,1.0.200.v20200611-1836]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.filetransfer.httpclient45' range='[1.0.300.v20200611-1836,1.0.300.v20200611-1836]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.core' range='[2.6.300.v20200211-1504,2.6.300.v20200211-1504]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.repository' range='[2.4.800.v20200813-0739,2.4.800.v20200813-0739]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.metadata' range='[2.5.0.v20200511-1530,2.5.0.v20200511-1530]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.engine' range='[2.6.700.v20200511-1530,2.6.700.v20200511-1530]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.director' range='[2.4.700.v20200511-1530,2.4.700.v20200511-1530]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.metadata.repository' range='[1.3.400.v20191211-1528,1.3.400.v20191211-1528]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.artifact.repository' range='[1.3.500.v20200406-2025,1.3.500.v20200406-2025]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.console' range='[1.1.300.v20191014-1219,1.1.300.v20191014-1219]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.garbagecollector' range='[1.1.400.v20200221-1022,1.1.400.v20200221-1022]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.jarprocessor' range='[1.1.600.v20200217-1130,1.1.600.v20200217-1130]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.touchpoint.eclipse' range='[2.2.700.v20200813-0739,2.2.700.v20200813-0739]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.touchpoint.natives' range='[1.3.600.v20200511-1530,1.3.600.v20200511-1530]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='javax.validation.api' range='[2.0.1.Final,2.0.1.Final]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.glassfish.jersey.inject.jersey-hk2' range='[2.30.1.v20200512-1802,2.30.1.v20200512-1802]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.idempiere.eclipse.platform.feature.feature.jar' range='[8.1.0.202101090636,8.1.0.202101090636]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+  <unit id='org.idempiere.eclipse.platform.feature.feature.jar' version='8.1.0.202101090636'>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='Eclipse Platform for iDempiere'/>
+      <property name='org.eclipse.equinox.p2.description' value='Eclipse runtime for iDempiere'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='www.idempiere.org'/>
+      <property name='maven-groupId' value='org.idempiere'/>
+      <property name='maven-artifactId' value='org.idempiere.eclipse.platform.feature'/>
+      <property name='maven-version' value='8.1.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.idempiere.eclipse.platform.feature.feature.jar' version='8.1.0.202101090636'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='org.idempiere.eclipse.platform.feature' version='8.1.0.202101090636'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='org.idempiere.eclipse.platform.feature' version='8.1.0.202101090636'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+</units>
